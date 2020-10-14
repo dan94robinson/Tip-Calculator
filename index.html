@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+    <form id="input-class">
+      <div class="tip-container">
+        <div class="input">
+          <h2 class="sub-title">Sub-Total:</h2>
+          <input type="number" class="input-box" id="amount-number" />
+        </div>
+        <div class="tip-amount">
+          <h2 class="tip-title">Tip %:</h2>
+          <input type="number" class="tip-box" id="tip-number" />
+        </div>
+        <h2 id="tip-total" class="tip-answer">Tip: $0.00</h2>
+        <h2 id="total-answer">Total: $0.00</h2>
+        <input type="submit" class="submit-button" value="Calculate" />
+      </div>
+    </form>
+    <script src="./app.js"></script>
+  </body>
+</html>

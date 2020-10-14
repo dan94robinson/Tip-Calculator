@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: rgb(181, 217, 255);
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.tip-container {
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  background-color: rgb(166, 255, 158);
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+}
+.input-box {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  border-radius: 7px;
+  position: relative;
+  height: 2.2rem;
+  font-size: 1.7rem;
+  border: 1px solid rgb(228, 228, 228);
+  text-align: center;
+  width: 25%;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+}
+.tip-answer {
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+}
+.total-answer {
+  padding-bottom: 1.7rem;
+  font-size: 1.55rem;
+}
+.tip-box {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  margin: 1rem;
+  margin-top: 1.2rem;
+  border-radius: 7px;
+  position: relative;
+  height: 2.2rem;
+  font-size: 1.7rem;
+  border: 1px solid rgb(228, 228, 228);
+  text-align: center;
+  width: 25%;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+}
+.submit-button {
+  margin-bottom: 2rem;
+  margin-top: 1.3rem;
+  padding: 1.5vh;
+  border-radius: 9px;
+  appearance: none;
+  width: 40%;
+  background-color: rgb(23, 128, 255);
+  font-size: 1.3rem;
+  font-family: "Lato", sans-serif;
+  border: 3px solid rgba(255, 255, 255, 0.42);
+  color: white;
+  cursor: pointer;
+}
+.input {
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sub-title {
+  display: inline-block;
+  margin-top: 2.2rem;
+  margin-right: 1rem;
+}
+.tip-title {
+  display: inline-block;
+  margin-right: 1rem;
+}
+#tip-number {
+  display: inline-block;
+  left: 1.2rem;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
